@@ -1,16 +1,27 @@
-import React from 'react'
-import App_Demo from './assets/App_Demo.gif'
-import fib from './assets/fib.gif'
-import Dashboard from './assets/Dashboard_Demo.gif'
-import './Projects.css'
+import React from 'react';
+import App_Demo from './assets/App_Demo.gif';
+import fib from './assets/fib.gif';
+import Dashboard from './assets/Dashboard_Demo.gif';
+import './Projects.css';
+import cric_trivia from './assets/cric_trivia.gif';
 
 const Projects = () => {
   return (
     <div className='parent-container'>
       <div className='container'>
-        <h1 style={{textAlign: 'center'}}>Cross-Platform Profile Page App</h1>
+        <h1 style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>Cricket Trivia Quiz Web App</h1>
+        <img className='project-image' src={cric_trivia} alt='App Demo'></img>
+        <p style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>
+        <span style={{fontStyle:'italic'}}>Developed a cricket trivia quizzing
+         application for users to test their cricket knowledge.</span><br/><br/>
+         Designed and developed a captivating responsive web application 
+         for quizzing users on cricket trivia by using React.js, Javascript and CSS.
+        </p>
+      </div>
+      <div className='container'>
+        <h1 style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>Cross-Platform Profile Page App</h1>
         <img className='ProfileApp' src={App_Demo} alt='App Demo'></img>
-        <p style={{textAlign: 'center'}}>
+        <p style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>
         <span style={{fontStyle:'italic'}}>Profile Page App built with React Native to deliver seamless 
         experiences on both iOS and Android devices.</span><br/><br/>
         Designed and developed a captivating responsive mobile application, 
@@ -18,9 +29,9 @@ const Projects = () => {
         </p>
       </div>
       <div className='container'>
-        <h1 style={{textAlign: 'center'}}>Fibonacci Numbers Generator </h1>
+        <h1 style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>Fibonacci Numbers Generator </h1>
         <img src={fib} className='project-image' alt='App Demo'></img>
-        <p style={{textAlign: 'center'}}>
+        <p style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>
         <span style={{fontStyle:'italic'}}>Developed a web application using React and Django 
         that generates the first n Fibonacci numbers based on user input.</span><br/>
         <br/>Developed a responsive web application using React and Django for 
@@ -30,9 +41,9 @@ const Projects = () => {
         </p>
       </div>
       <div className='container'>
-        <h1 style={{textAlign: 'center'}}>Interactive Data Visualization Dashboard</h1>
+        <h1 style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>Interactive Data Visualization Dashboard</h1>
         <img src={Dashboard} className='project-image' alt='App Demo'></img>
-        <p style={{textAlign: 'center'}}>
+        <p style={{textAlign: 'center', fontFamily: "'Comic Sans MS', 'Comic Sans', 'cursive'"}}>
         <span style={{fontStyle:'italic'}}>Interactive Dashboard for visualizing and finding 
         interesting facts and information from high dimensional 
         data of childcare centers in NYC such as violation 
